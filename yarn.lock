@@ -5711,10 +5711,10 @@ react-native-share@^7.9.0:
   resolved "https://registry.npmjs.org/react-native-share/-/react-native-share-7.9.0.tgz#31f28d85201bada5e511c5f14d5935df2166fe93"
   integrity sha512-I9RPp7Ph7dusPwN+/TgFq2V9vLVCN12gwUzpgM1eCoqTMN54dVWI+9k0loCgANv3CdajiKSOrGh+DTnsmhG9VA==
 
-react-native-video-merger@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/react-native-video-merger/-/react-native-video-merger-0.1.1.tgz#da11048b830de075bd187a9163640e05c11a4412"
-  integrity sha512-oWqgQ83+hp17A1CizIzjPCY1rX/cASDlc0QSB7c56AE5NIuLNjZKtHCEhunCd1avccuvqniojdj6/sj76GkAcA==
+react-native-video-merger@0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/react-native-video-merger/-/react-native-video-merger-0.1.3.tgz#049d71f272d2815c2559aed8bff88b163dec3d28"
+  integrity sha512-3/8CcCmcPYnI6FFW4krRIdhBY8NDQeoDdJzo647F8rSFjKn2ZMLwieFOvRq65fR6K6do89WjUKSPy8SgHGsTPQ==
   dependencies:
     lodash "^4.17.21"
     nanoid "^4.0.0"
