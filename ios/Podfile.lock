@@ -284,9 +284,9 @@ PODS:
   - React-jsinspector (0.69.5)
   - React-logger (0.69.5):
     - glog
-  - react-native-video-merger (0.1.1):
+  - react-native-video-merger (0.1.2):
     - React-Core
-    - SotVideoSDK (~> 1.0.1)
+    - SotVideoSDK (~> 1.0.3)
   - React-perflogger (0.69.5)
   - React-RCTActionSheet (0.69.5):
     - React-Core/RCTActionSheetHeaders (= 0.69.5)
@@ -360,7 +360,7 @@ PODS:
   - RNShare (7.9.0):
     - React-Core
   - SocketRocket (0.6.0)
-  - SotVideoSDK (1.0.1)
+  - SotVideoSDK (1.0.3)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -553,7 +553,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: e42f0b46de293a026c2fb20e524d4fe09f81f575
   React-jsinspector: e385fb7a1440ae3f3b2cd1a139ca5aadaab43c10
   React-logger: 15c734997c06fe9c9b88e528fb7757601e7a56df
-  react-native-video-merger: 1c458c3e5f9ffc577cac54a9711a63a5b6f70d89
+  react-native-video-merger: 2fe6a481b21f988e6ee138c1278ccc1faf852a10
   React-perflogger: 367418425c5e4a9f0f80385ee1eaacd2a7348f8e
   React-RCTActionSheet: e4885e7136f98ded1137cd3daccc05eaed97d5a6
   React-RCTAnimation: 7c5a74f301c9b763343ba98a3dd776ed2676993f
@@ -570,7 +570,7 @@ SPEC CHECKSUMS:
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNShare: be91a5c149585affb02c25b351bd07ba927c7006
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
-  SotVideoSDK: 987e98eda2d07abb6a59c3e0595816ff6bbad9bc
+  SotVideoSDK: d0a6f802c75581ec50c6e68401eab686f3fc49cf
   Yoga: c2b1f2494060865ac1f27e49639e72371b1205fa
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
