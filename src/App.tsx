@@ -45,7 +45,6 @@ export default function App() {
 
       // display file share menu when video merge finished
       const { progress: _progress, outputFilePath } = _result;
-      console.log("### res!!!====", _progress, outputFilePath);
       if (_progress === 1 && outputFilePath) {
         Share("Result Video", "", outputFilePath);
       }
