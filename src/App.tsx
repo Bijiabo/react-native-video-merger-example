@@ -22,14 +22,11 @@ export default function App() {
   const [startActionMark, setStartActionMark] = React.useState<string>('');
 
   // auto display share menu when export finished
+  /*
   React.useEffect(() => {
     const { progress: _progress, outputFilePath } = result || {};
-
-    if (_progress === 1 && outputFilePath) {
-      Share('Result Video', '', outputFilePath);
-    }
   }, [result]);
-
+  */
   // function
   const onStart = React.useCallback(() => {
     setIsRunning(true);
@@ -45,6 +42,13 @@ export default function App() {
     (_result: VideoMergeEvent) => {
       setResult(_result);
       setIsRunning(false);
+
+      // display file share menu when video merge finished
+      const { progress: _progress, outputFilePath } = _result;
+      console.log("### res!!!====", _progress, outputFilePath);
+      if (_progress === 1 && outputFilePath) {
+        Share("Result Video", "", outputFilePath);
+      }
     },
     [setResult, setIsRunning]
   );
@@ -72,6 +76,12 @@ export default function App() {
     try {
       const res = await mergeVideos(paramsForMergeVideo, onProgress);
       setResult(res);
+
+      // display file share menu when video merge finished
+      const { progress: _progress, outputFilePath } = res;
+      if (_progress === 1 && outputFilePath) {
+        Share("Result Video", "", outputFilePath);
+      }
     } catch (error) {
       onError && onError(error as unknown as VideoMergeEvent);
     }
